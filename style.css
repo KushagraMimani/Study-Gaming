@@ -1,0 +1,358 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100%22"
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	font-family: "Lato", Arial, sans-serif;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+}
+
+h1{
+	font-size: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: -3%;
+	left: 1%;
+}
+
+h2{
+	font-size: 50px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 8.5%;
+	left: 36%;
+}
+
+
+@keyframes change {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+ul{
+	text-align-last: center;
+	float: right;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 30px;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.select{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: relative;
+	top: 15%;
+	left: 35%;
+}
+
+h3{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 30px;
+	position: absolute;
+	top: 57%;
+	left: 4.5%;
+}
+
+.krunker_io{
+	position: absolute;
+	top: 35%;
+	left: 25px;
+}
+
+h4{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 30px;
+	position: absolute;
+	top: 60%;
+	left: 38%;
+}
+
+.agar_io{
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+
+.happy{
+	position: absolute;
+	top: 35%;
+	left: 65%;
+}
+
+h5{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 30px;
+	position: absolute;
+	top: 57%;
+	left: 67%;
+}
+
+.class1{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 25%;
+	left: 60px;
+}
+
+.class2{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+}
+
+.class3{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 25%;
+	left: 63%;
+}
+
+.class4{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 40%;
+	left: 60px;
+}
+
+.class5{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+.class6{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 40%;
+	left: 63%;
+}
+
+.class7{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 55%;
+	left: 60px;
+}
+
+.class8{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 55%;
+	left: 35%;
+}
+
+.class9{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 55%;
+	left: 63%;
+}
+
+.class10{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 25px;
+	position: absolute;
+	top: 70%;
+	left: 35%;
+}
+.class1:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class2:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class3:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class4:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class5:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class6:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class7:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class8:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class9:hover{
+	background-color: #fff;
+	color: #000;
+}
+.class10:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.email{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	font-size: 30px;
+	position: absolute;
+	top: 55%;
+	left: 60px;	
+}
+
+.info{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 50px;
+	position: absolute;
+	top: 20%;
+	left: 20%;		
+	
+}
+.email{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+.about{
+	padding-top: 10%;
+	font-size: 30px;
+	position: relative;
+	top: 70%;
+	left: -25%;
+}
+
+
+
+.abtweb{
+	font-size: 30px;
+	position: absolute;
+	top: 150%;
+	left: -25%;
+}
+
+.thank{
+	font-size: 30px;
+	position: absolute;
+	top: 60%;
+	left: 36.5%;
+}
+
